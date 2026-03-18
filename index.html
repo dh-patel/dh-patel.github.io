@@ -1,40 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Dhaval Patel | Computational Engineer</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        h1, h2 { color: #2c3e50; }
-        .section { margin-bottom: 30px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhaval Patel | Simulation Engineer</title>
+  <meta name="description" content="Portfolio homepage of Dhaval Patel, computational and simulation engineer based in Kassel, Germany, specializing in FEM, fatigue, vibration, and rotating machinery." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="assets/theme.js"></script>
 </head>
 <body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">Dhaval Patel</div>
+      <div class="nav">
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-btn" id="themeToggle" type="button" aria-label="Toggle dark mode">🌙 Dark mode</button>
+      </div>
+    </header>
 
-<h1>Dhaval Patel</h1>
-<p>Kassel, Germany | +49-17656798602 | dhaval2907patel@gmail.com | LinkedIn: [add link]</p>
+    <section class="hero">
+      <div class="photo-shell">
+        <div class="photo">
+          <img src="assets/profile.jpg" alt="Portrait of Dhaval Patel" />
+        </div>
+      </div>
+      <div>
+        <div class="eyebrow">Computational Engineering · Kassel, Germany</div>
+        <h1>FEM-driven design, fatigue assessment, and vibration analysis for rotating machinery</h1>
+        <p class="lead">
+          I am a computational engineer focused on structural simulation, fatigue, vibration, and simulation-guided design improvement for electromechanical systems and pumps.
+          My work combines finite element analysis, engineering judgment, and data-driven post-processing using ANSYS, Abaqus, Python, and MATLAB.
+        </p>
 
-<div class="section">
-<h2>Profile</h2>
-<p>Computational Engineer specializing in FEM-based structural, fatigue, and vibration analysis of rotating machinery. 
-Experienced with ANSYS and Abaqus. Focus on nonlinear simulation and rotor dynamics.</p>
-</div>
+        <div class="meta-grid">
+          <div class="meta-card">
+            <div class="label">Current Focus</div>
+            <div class="value">Simulation & Design Engineering</div>
+          </div>
+          <div class="meta-card">
+            <div class="label">Core Domains</div>
+            <div class="value">Rotors · Pumps · Composite Bandages</div>
+          </div>
+          <div class="meta-card">
+            <div class="label">Key Tools</div>
+            <div class="value">ANSYS · Abaqus · Python · MATLAB</div>
+          </div>
+        </div>
 
-<div class="section">
-<h2>Experience</h2>
-<ul>
-<li><b>Development Engineer – AKH Antriebstechnik</b> (2024–Present)<br>
-Performed FEM/CFD simulations improving robustness by [X%]</li>
+        <div class="actions">
+          <a class="btn primary" href="cv/Dhaval_Patel_Full_CV_EN.docx">Download CV</a>
+          <a class="btn" href="mailto:dhaval2907patel@gmail.com">Email</a>
+          <a class="btn" href="linkedin/">LinkedIn</a>
+          <a class="btn" href="tel:+4917656798602">Call</a>
+          <a class="btn" href="cv/Dhaval_Patel_Original_CV.pdf">Original PDF</a>
+        </div>
+      </div>
+    </section>
 
-<li><b>Simulation Engineer – ITT Bornemann</b> (2022–2023)<br>
-Fatigue and vibration analysis improving reliability by [X%]</li>
-</ul>
-</div>
+    <div class="section-grid">
+      <section class="card" id="about">
+        <h2>About</h2>
+        <p>
+          I work at the intersection of simulation and product engineering, with hands-on experience in FEM, CFD, structural analysis,
+          vibration assessment, and measurement-data evaluation for industrial components.
+        </p>
+        <p>
+          My recent work includes optimization of rotor and carbon-fiber bandage designs, fatigue and vibration analysis of rotating systems,
+          and support for engineering decisions through Python- and MATLAB-based data workflows.
+        </p>
+        <div class="note small">
+          This site is intentionally structured like a clean GitHub Pages portfolio for engineering job applications. Replace the LinkedIn placeholder with the final public URL and update the quantitative placeholders once confirmed.
+        </div>
+      </section>
 
-<div class="section">
-<h2>Skills</h2>
-<p>ANSYS, Abaqus, Python, MATLAB, FEM, Rotor Dynamics</p>
-</div>
+      <section class="card" id="expertise">
+        <h2>Core Expertise</h2>
+        <div class="chips">
+          <span class="chip">Finite Element Analysis</span>
+          <span class="chip">Fatigue Analysis</span>
+          <span class="chip">Vibration Analysis</span>
+          <span class="chip">Rotor Dynamics</span>
+          <span class="chip">Thermo-mechanical Simulation</span>
+          <span class="chip">CFD-supported Design</span>
+          <span class="chip">Python Data Analysis</span>
+          <span class="chip">MATLAB Workflows</span>
+          <span class="chip">ANSYS</span>
+          <span class="chip">Abaqus</span>
+          <span class="chip">HyperMesh</span>
+          <span class="chip">SolidWorks / CATIA</span>
+        </div>
+      </section>
+    </div>
 
+    <div class="split" id="experience">
+      <section class="card">
+        <h2>Experience</h2>
+        <div class="timeline-item">
+          <div class="item-title">Development Engineer · AKH Antriebstechnik GmbH (WEG Group)</div>
+          <div class="item-meta">Nov 2024 - Present · Germany</div>
+          <div>Performed structural, CFD, and vibration simulations for electromechanical systems using ANSYS and Abaqus, improving design robustness by <strong>[X%]</strong>.</div>
+          <div>Optimized rotor and carbon-fiber bandage designs, including pre-stress and layer configuration, reducing failure risk by <strong>[X%]</strong>.</div>
+          <div>Developed Python and MATLAB workflows for measurement-data evaluation, reducing analysis time by <strong>[X%]</strong>.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="item-title">Simulation Engineer / Master Thesis · ITT Bornemann GmbH</div>
+          <div class="item-meta">Jan 2022 - Feb 2023 · Germany</div>
+          <div>Performed FEM-based structural and thermal analysis of pump components and identified critical loading regions.</div>
+          <div>Conducted fatigue and vibration analysis of multiphase pumps, improving reliability by <strong>[X%]</strong>.</div>
+          <div>Developed internal ANSYS workflow guidance, reducing inconsistencies by <strong>[X%]</strong>.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="item-title">Production Engineer · Pragati Engineering Works</div>
+          <div class="item-meta">Aug 2017 - Mar 2018 · India</div>
+          <div>Designed and optimized mechanical components and refurbished industrial machines to restore functionality and improve resale readiness.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="item-title">Working Student · Manglam Engineering Works</div>
+          <div class="item-meta">May 2015 - Aug 2016 · India</div>
+          <div>Built 2D and 3D CAD models, supported production planning, and contributed to quality assurance activities.</div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Education & Credentials</h2>
+        <div class="timeline-item">
+          <div class="item-title">M.Sc. Computational Methods in Engineering</div>
+          <div class="item-meta">Leibniz Universität Hannover · 2018 - 2023</div>
+          <div>Master thesis on fatigue and vibration analysis of twin-screw pumps, including the effect of operating parameters and back pressure on performance.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="item-title">B.Sc. Mechanical Engineering</div>
+          <div class="item-meta">LDRP Institute of Technology and Research · 2014 - 2017</div>
+          <div>Mechanical engineering foundation with project work in design and manufacturing.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="item-title">Diploma in Mechanical Engineering</div>
+          <div class="item-meta">R.C. Technical College · 2011 - 2014</div>
+          <div>Early technical training in mechanical systems, manufacturing, and practical engineering work.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="item-title">Languages</div>
+          <div class="item-meta">Professional communication</div>
+          <div>German (B2) · English (Fluent) · Hindi (Native)</div>
+        </div>
+      </section>
+    </div>
+
+    <section class="card" id="projects">
+      <h2>Selected Engineering Projects</h2>
+      <div class="pub-grid">
+        <article class="pub-card">
+          <div class="pub-year">M.Sc.</div>
+          <h3>Fatigue and Vibration Analysis of Twin-Screw Pumps</h3>
+          <div class="pub-meta">Master thesis · ANSYS-based engineering study</div>
+          <p class="small">Studied stress behavior under varying operating conditions, bending deformation, and the influence of back pressure on pump performance.</p>
+        </article>
+        <article class="pub-card">
+          <div class="pub-year">MATLAB</div>
+          <h3>Simulation of Laminated Structures</h3>
+          <div class="pub-meta">Stress-strain analysis and parameter study</div>
+          <p class="small">Computed stress and strain fields in layered structures and evaluated material behavior under different assumptions.</p>
+        </article>
+        <article class="pub-card">
+          <div class="pub-year">FDM / FVM</div>
+          <h3>Numerical Modeling of Subsurface Flow</h3>
+          <div class="pub-meta">Finite difference and finite volume methods</div>
+          <p class="small">Applied numerical methods to investigate underground water transport using MATLAB and Python workflows.</p>
+        </article>
+        <article class="pub-card">
+          <div class="pub-year">Reliability</div>
+          <h3>Monte Carlo-Based Mechanical Risk Analysis</h3>
+          <div class="pub-meta">Leaf spring model and uncertainty quantification</div>
+          <p class="small">Built a numerical model for reliability and risk analysis using Monte Carlo and extended Monte Carlo methods.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="split">
+      <section class="card">
+        <h2>Technical Stack</h2>
+        <div class="chips">
+          <span class="chip">ANSYS Mechanical</span>
+          <span class="chip">ANSYS CFD</span>
+          <span class="chip">Abaqus/CAE</span>
+          <span class="chip">HyperMesh</span>
+          <span class="chip">Python</span>
+          <span class="chip">MATLAB</span>
+          <span class="chip">Mathcad</span>
+          <span class="chip">SolidWorks</span>
+          <span class="chip">CATIA V5</span>
+          <span class="chip">Siemens NX</span>
+          <span class="chip">Inventor</span>
+          <span class="chip">Creo</span>
+        </div>
+      </section>
+
+      <section class="card" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-list">
+          <p><strong>Email:</strong> <a href="mailto:dhaval2907patel@gmail.com">dhaval2907patel@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+4917656798602">+49 176 56798602</a></p>
+          <p><strong>Location:</strong> Kassel, Germany</p>
+          <p><strong>LinkedIn:</strong> <a href="linkedin/">add public profile URL</a></p>
+          <p><strong>Driving License:</strong> Class B</p>
+        </div>
+        <p class="small" style="margin-top:16px; color: var(--muted);">
+          This page uses the portrait extracted from the uploaded CV. Add a higher-resolution headshot later if available for a sharper GitHub Pages presentation.
+        </p>
+      </section>
+    </div>
+
+    <footer class="footer">© 2026 Dhaval Patel · Simulation Engineer Portfolio for GitHub Pages</footer>
+  </div>
 </body>
 </html>
